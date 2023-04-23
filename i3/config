@@ -220,7 +220,7 @@ exec_always feh --bg-scale /home/mahir/MEGA/Drive/wallpapersden.com_ellie-the-la
 exec compton
 exec autokey
 exec_always --no-startup-id picom -bc
-exec redshift
+exec_always redshift
 exec autokey-qt
 
 
