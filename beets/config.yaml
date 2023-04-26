@@ -1,0 +1,25 @@
+directory: /mnt/2878-0498/mahir/Music
+library: /mnt/2878-0498/mahir/Music/.database/musiclibrary.db
+import:
+    move: yes
+plugins: convert badfiles duplicates replaygain fetchart embedart lyrics
+convert:
+    dest: ~/converted_music
+    auto: yes
+    copy_album_art: yes
+    embed: yes
+    never_convert_lossy_files: yes
+    command: ffmpeg -i $source -vn -aq 2 $dest
+    extension: mp3
+replaygain:
+    auto: yes
+    backend: ffmpeg
+fetchart:
+    high_resolution: yes
+    maxwidth: 3000
+    quality: 80
+embedart:
+    ifempty: yes
+    remove_art_file: yes
+lyrics:
+    auto: yes
