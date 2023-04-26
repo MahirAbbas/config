@@ -3,7 +3,7 @@
     "userCodeDir": null,
     "settings": {
         "isFirstRun": false,
-        "serviceRunning": true,
+        "serviceRunning": false,
         "menuTakesFocus": false,
         "showTrayIcon": true,
         "sortByUsageCount": true,
@@ -17,7 +17,7 @@
         ],
         "hPanePosition": 260,
         "columnWidths": [
-            244,
+            144,
             49,
             100
         ],
@@ -41,7 +41,7 @@
         "hotKey": "k"
     },
     "configHotkey": {
-        "enabled": true,
+        "enabled": false,
         "modifiers": [
             "<super>"
         ],

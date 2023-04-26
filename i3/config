@@ -217,10 +217,9 @@ exec i3-config-wizard
 exec megasync
 exec_always feh --bg-scale /home/mahir/MEGA/Drive/wallpapersden.com_ellie-the-last-of-us-2_1920x1080.jpg
 # exec i2prouter
-exec compton
 exec autokey
 exec_always --no-startup-id picom -bc
-exec_always redshift
+exec --no-startup-id redshift-gtk
 exec autokey-qt
 
 
