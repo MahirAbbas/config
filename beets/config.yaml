@@ -1,11 +1,10 @@
-directory: /mnt/2878-0498/mahir/Music
-library: /mnt/2878-0498/mahir/Music/.database/musiclibrary.db
+directory: ~/Music/Music/
+library: ~/Music/Music/.database/musiclibrary.db
 import:
     move: yes
 plugins: convert badfiles duplicates replaygain fetchart embedart lyrics
 convert:
-    dest: ~/converted_music
-    dest: /mnt/2878-0498/mahir/converted_music
+    dest: ~/Music/converted_music
     auto: yes
     copy_album_art: yes
     embed: yes
