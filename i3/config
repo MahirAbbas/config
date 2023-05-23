@@ -219,7 +219,7 @@ exec megasync
 exec_always feh --bg-scale /home/mahir/MEGA/Drive/wallpapersden.com_ellie-the-last-of-us-2_1920x1080.jpg
 # exec i2prouter
 exec_always --no-startup-id picom -bc
-exec redshift -O 3000
+exec redshift -O 2000
 
 
 # Plasma compatibility improvements
